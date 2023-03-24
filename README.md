@@ -13,7 +13,8 @@
   - npm i tsx -D
   - npm i vitest -D
   - npm i ts-prune -D
-  - npm i typescript @types/node -D
+  - npm i @types/express -D
+  - npm i @types/node -D
   - npm i prettier -D
   - npm i eslint -D
   - npm i husky -D
