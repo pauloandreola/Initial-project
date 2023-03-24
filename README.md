@@ -4,17 +4,18 @@
 - Install dependencies:
   - npm i express
   - npm i dotenv
-  - npm i nodemon
+  - npm i nodemon* analisar ts-node-dev
   - npm i mongodb
   - npm i mongoose
+  - npm i jsonwebtoken
 - Install dev dependencies:
   - npm i typescript -D
+  - npm i @types/express -D
+  - npm i @types/node -D
   - npm i ts-node-dev -D
   - npm i tsx -D
   - npm i vitest -D
   - npm i ts-prune -D
-  - npm i @types/express -D
-  - npm i @types/node -D
   - npm i prettier -D
   - npm i eslint -D
   - npm i husky -D
