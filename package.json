@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/pauloandreola/Initial-project/issues"
   },
-  "homepage": "https://github.com/pauloandreola/Initial-project#readme"
+  "homepage": "https://github.com/pauloandreola/Initial-project#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
