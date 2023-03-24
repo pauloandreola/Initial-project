@@ -33,7 +33,9 @@ Project steps:
   - npm i eslint-config-prettier -D
   - npm i eslint-plugin-prettier -D
   - Executar (para gerar o arquivo .prettierrc.json do Prettier) no terminal "echo {}> .prettierrc.json" para criar um arquivo e após incluir configurações
-  - npm i husky -D
+
+  - npx husky-init && npm install criar uma pasta .husky na raiz do projeto, "prepare": "husky install" no script no package.json preciso criar um hook no package.json também (necessário configuração)
+
   - npm i lint-staged -D
 
 - Incluir no extends do eslintrc "https://github.com/prettier/eslint-config-prettier#installation"
