@@ -23,6 +23,8 @@
   - npm i eslint -D
   - npm i husky -D
   - npm i lint-staged -D
+  - npm i eslint-plugin-import-helpers -D
+  - npm i eslint-import-resolver-typescript -D
 - Executar (para gerar o arquivo tsconfig.json do Typescript) no terminal "tsc --init, ou npm i @tsconfig/node18";
 - Executar (para gerar o arquivo .eslintrc.json do Eslint) no terminal "npm init @eslint/config" e configurar;
 - Executar (para gerar o arquivo .prettierrc.json do Prettier) no terminal "echo {}> .prettierrc.json" para criar um arquivo e após incluir configurações
