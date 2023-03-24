@@ -27,6 +27,7 @@
     "nodemon": "^2.0.22"
   },
   "devDependencies": {
+    "@tsconfig/node18": "^1.0.1",
     "@types/express": "^4.17.17",
     "@types/jsonwebtoken": "^9.0.1",
     "@types/node": "^18.15.6",

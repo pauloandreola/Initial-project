@@ -12,6 +12,8 @@
   - npm i typescript -D
   - npm i @types/express -D
   - npm i @types/node -D
+  npm i @tsconfig/node18 -D
+  - npm i @types/jsonwebtoken -D
   - npm i ts-node-dev -D
   - npm i tsx -D
   - npm i vitest -D
