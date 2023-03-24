@@ -1,9 +1,10 @@
+/* eslint-disable no-console */
 import * as dotenv from 'dotenv';
 import express from 'express';
 
 dotenv.config();
 
-    const app = express();
+const app = express();
 
 const port = process.env.PORT;
 
