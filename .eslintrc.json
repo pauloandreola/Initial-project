@@ -4,17 +4,45 @@
         "node": true
     },
     "extends": [
-        "airbnb-base"
+        "airbnb-base",
+        "plugins:@typescript-eslint/recommended",
+        "plugins:@typescript-eslint/recommended-requiring-type-checking",
+        "plugins:import/errors",
+        "plugins:import/warnings",
+        "plugins:import/typescript"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
+        "project": ["./tsconfig.json"],
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
     "plugins": [
-        "@typescript-eslint"
+        "@typescript-eslint",
+        "eslint-plugins-imports-helpers"
+
     ],
     "rules": {
-        "no-console": "off"
+        "no-console": "off",
+        "import/extensions": [
+            "error",
+            "ignorePackages",
+            {
+                "ts": "never"
+            }
+        ],
+        "import-helpers/order-imports": [
+            "warn",
+            {
+                "newlineBetween": "always",
+                "groups": ["modules", "/^@/", ["parent", "sibling", "index"]],
+                "alphabetize": { "order": "asc", "ignoreCase": true }
+            }
+        ]
+    },
+    "settings": {
+        "import/resolver": {
+            "typescript": {}
+        }
     }
 }
