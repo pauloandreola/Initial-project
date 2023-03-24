@@ -8,11 +8,13 @@
   - npm i mongodb
   - npm i mongoose
   - npm i jsonwebtoken
+  - npm i bcryptjs
 - Install dev dependencies:
   - npm i typescript -D
   - npm i @types/express -D
   - npm i @types/node -D
   - npm i @types/jsonwebtoken -D
+  - npm i @types/bcryptjs -D
   - npm i ts-node-dev -D
   - npm i tsx -D
   - npm i vitest -D
