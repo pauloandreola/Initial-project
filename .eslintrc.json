@@ -9,7 +9,9 @@
         "plugins:@typescript-eslint/recommended-requiring-type-checking",
         "plugins:import/errors",
         "plugins:import/warnings",
-        "plugins:import/typescript"
+        "plugins:import/typescript",
+        "prettier",
+        "plugin:prettier/recommended"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
